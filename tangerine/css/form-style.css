@@ -105,6 +105,11 @@
     box-sizing: border-box;
   }
 
+  .mauticform-selectbox{
+    height:30px;
+    background:#ffffff;
+  }
+
   .mauticform-button {
     color: #FF6600!important;
     margin: 8px auto 0;
