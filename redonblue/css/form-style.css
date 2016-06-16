@@ -1,0 +1,80 @@
+/**
+ * @package     Mautic Forms
+ * @copyright   2016 Mautic Contributors. All rights reserved.
+ * @author      Agência Orangeweb
+ * @link        http://www.orangeweb.com.br
+ * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+  .mauticform_wrapper, .mauticform_wrapper *{
+    font-family:'Ubuntu', sans-serif;
+    font-size:12px;
+  }
+
+  .mauticform-input, .mauticform-textarea{
+    border:none!important;
+    width:100%!important;
+    -moz-border-radius:0!important;
+    -webkit-border-radius:0!important;
+    border-radius:0!important;
+    font-size:12px;
+    color:#000000!important;
+    padding:10px!important;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  .mautic-form label{
+    font-weight:bold !important;
+  }
+
+  .mauticform-selectbox{
+    border:none!important;
+    width:100%!important;
+    -moz-border-radius:0!important;
+    -webkit-border-radius:0!important;
+    border-radius:0!important;
+    font-size:18px;
+    color:#000000!important;
+    padding:10px!important;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  .mauticform-button{
+    color:#FFF !important;
+    background-color:#D53F28!important;
+    margin:8px auto 0;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:500;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding:6px 20px;
+    line-height:1.7em;
+    background:transparent;
+    border:2px solid;
+    -moz-transition:all 0.2s;
+    -webkit-transition:all 0.2s;
+    transition:all 0.2s;
+    width:100%;
+  }
+
+  .mauticform-button:hover{
+    border-color:#eee;
+    padding:6px 20px!important;
+  }
+
+  .mauticform-errormsg{
+    color:#FFD722 !important;
+    font-weight:bold;
+  }
+
+  .mauticform_wrapper .row{
+    margin:16px 0;
+  }
