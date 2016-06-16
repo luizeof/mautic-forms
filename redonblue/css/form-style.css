@@ -13,6 +13,12 @@
     font-size:12px;
   }
 
+  .mauticform_wrapper {
+    background:#486371 !important;
+    color:#FFF;
+    padding: 12px;
+  }
+
   .mauticform-input, .mauticform-textarea{
     border:none!important;
     width:100%!important;
